@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KHN7R443');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook App SDK -->
+    <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '6562139603907792',
+        xfbml      : true,
+        version    : 'v19.0'
+      });
+      FB.AppEvents.logPageView();
+    };
+  
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- End Facebook App SDK -->
+    <title>Pini Martech</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHN7R443"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <h1>Registration</h1>
+    <p>Site em construção.</p>
+    <form id="registrationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        <label for="advertiser_id">Advertiser ID:</label>
+        <input type="text" id="advertiser_id" name="advertiser_id" placeholder="Enter your advertiser ID" required><br><br>
+        <button type="button" onclick="storeValues()">Submit</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
